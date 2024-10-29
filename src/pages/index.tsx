@@ -94,13 +94,13 @@ export default function HomePage() {
         <RecentPlays />
         <div class="games-section">
   <h2>Our Games</h2>
-  <div class="game-grid">
-    <div class="game-card">
+  <div className="game-grid">
+    <div className="game-card">
       <img src="game1.png" alt="Game 1" />
       <h3>Game Title 1</h3>
       <p>Short description of the game.</p>
     </div>
-    <div class="game-card">
+    <div className="game-card">
       <img src="game2.png" alt="Game 2" />
       <h3>Game Title 2</h3>
       <p>Short description of the game.</p>
