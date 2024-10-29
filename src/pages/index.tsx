@@ -83,53 +83,6 @@ export default function HomePage() {
               💬 Join Discord
             </button>
           </div>
-          <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Slider</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <input type="radio" name="position" />
-    <input type="radio" name="position" />
-    <input type="radio" name="position" checked/>
-    <input type="radio" name="position" />
-    <input type="radio" name="position" />
-    <main id="carousel">
-      <div className="item">
-        <img src="images/1.jpg">
-        <h3 className="name">Sally Sharpe</h3>
-        <p className="occupation">Marketing Admin</p>
-        <p className="testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, suscipit?</p>
-      </div>
-      <div className="item">
-        <img src="images/2.jpg">
-        <h3 className="name">Michael John</h3>
-        <p className="occupation">Cybersecurity Engineer</p>
-        <p className="testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolore.</p>
-      </div>
-      <div className="item">
-        <img src="images/3.jpg">
-        <h3 className="name">Mikayla Eddie</h3>
-        <p className="occupation">Software Engineer</p>
-        <p className="testimonial">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, temporibus?</p>
-      </div>
-      <div className="item">
-        <img src="images/4.jpg">
-        <h3 className="name">Eve Smith</h3>
-        <p className="occupation">UI/UX Designer</p>
-        <p className="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, beatae?</p>
-      </div>
-      <div className="item">
-        <img src="images/5.jpg">
-        <h3 className="name">Luke Maxwell</h3>
-        <p className="occupation">System Architect</p>
-        <p className="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, tempore.</p>
-      </div>
-    </main>
-</body>
-</html>
         </div>
         <h2 className="text-2xl font-bold text-center">Games</h2>
         <GameGrid />
