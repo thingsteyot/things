@@ -26,20 +26,13 @@ export const LIVE_EVENT_TOAST = true;
  ******************************************/
 
 export const FOOTER_LINKS = [
+ 
   {
-    href: "https://github.com/BankkRoll/Gamba-V2-Next.js",
-    title: "👨‍💻 Build your own",
+    href: "https://twitter.com/ThingsSOL",
+    title: "📖 Twitter",
   },
   {
-    href: "https://explorer.gamba.so/create",
-    title: "🚀 Create Pool",
-  },
-  {
-    href: "https://gamba.so/docs",
-    title: "📖 Gamba Docs",
-  },
-  {
-    href: "https://discord.com/invite/HSTtFFwR",
+    href: "https://discord.gg/KBBBpbbGGj",
     title: "💬 Join Discord",
   },
 ];
