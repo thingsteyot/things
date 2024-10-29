@@ -113,12 +113,12 @@ export const TOKENLIST = [
   },
   // GUAC
   {
-    mint: new PublicKey("AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"),
-    name: "Guacamole",
-    symbol: "GUAC",
+    mint: new PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"),
+    name: "Jupiter",
+    symbol: "JUP",
     image:
-      "https://bafkreiccbqs4jty2yjvuxp5x7gzgepquvv657ttauaqgxfhxghuz5us54u.ipfs.nftstorage.link/",
-    decimals: 5,
+      "hhttps://s2.coinmarketcap.com/static/img/coins/64x64/29210.png",
+    decimals: 6,
     baseWager: 2000000e5,
   },
 
