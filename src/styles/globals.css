@@ -298,3 +298,36 @@ body::-webkit-scrollbar-thumb {
   pointer-events: none;
   border-radius: 10px;
 }
+.games-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game-card {
+  background: #15152e;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+  transition: transform 0.2s;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 20px;
+}
