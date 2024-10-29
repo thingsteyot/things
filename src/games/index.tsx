@@ -15,7 +15,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
   {
     id: "dice",
     meta: {
-      background: "#E91E63",
+      background: "#e8dccb",
       name: "Dice",
       image: "/games/logo.png",
       description: `Dice offers an exhilarating challenge where players must forecast the outcome of a roll with a unique twist. By selecting a number, participants aim to roll below it to clinch victory. The dynamic nature of the game allows for adjustments in choices, directly influencing potential payouts and skillfully balancing risk and reward, ensuring an immersive and stimulating gaming experience.`,
