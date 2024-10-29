@@ -97,35 +97,35 @@ export default function HomePage() {
     <input type="radio" name="position" />
     <input type="radio" name="position" />
     <main id="carousel">
-      <div class="item">
+      <div className="item">
         <img src="images/1.jpg">
-        <h3 class="name">Sally Sharpe</h3>
-        <p class="occupation">Marketing Admin</p>
-        <p class="testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, suscipit?</p>
+        <h3 className="name">Sally Sharpe</h3>
+        <p className="occupation">Marketing Admin</p>
+        <p className="testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, suscipit?</p>
       </div>
-      <div class="item">
+      <div className="item">
         <img src="images/2.jpg">
-        <h3 class="name">Michael John</h3>
-        <p class="occupation">Cybersecurity Engineer</p>
-        <p class="testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolore.</p>
+        <h3 className="name">Michael John</h3>
+        <p className="occupation">Cybersecurity Engineer</p>
+        <p className="testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolore.</p>
       </div>
-      <div class="item">
+      <div className="item">
         <img src="images/3.jpg">
-        <h3 class="name">Mikayla Eddie</h3>
-        <p class="occupation">Software Engineer</p>
-        <p class="testimonial">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, temporibus?</p>
+        <h3 className="name">Mikayla Eddie</h3>
+        <p className="occupation">Software Engineer</p>
+        <p className="testimonial">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, temporibus?</p>
       </div>
-      <div class="item">
+      <div className="item">
         <img src="images/4.jpg">
-        <h3 class="name">Eve Smith</h3>
-        <p class="occupation">UI/UX Designer</p>
-        <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, beatae?</p>
+        <h3 className="name">Eve Smith</h3>
+        <p className="occupation">UI/UX Designer</p>
+        <p className="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, beatae?</p>
       </div>
-      <div class="item">
+      <div className="item">
         <img src="images/5.jpg">
-        <h3 class="name">Luke Maxwell</h3>
-        <p class="occupation">System Architect</p>
-        <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, tempore.</p>
+        <h3 className="name">Luke Maxwell</h3>
+        <p className="occupation">System Architect</p>
+        <p className="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, tempore.</p>
       </div>
     </main>
 </body>
