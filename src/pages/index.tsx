@@ -6,6 +6,7 @@ import RecentPlays from "@/components/game/RecentPlays/RecentPlays";
 import { toast } from "sonner";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { useWalletModal } from "@solana/wallet-adapter-react-ui";
+import { UserButton } from "../ui/UserButton";
 
 export default function HomePage() {
   const walletModal = useWalletModal();
@@ -66,6 +67,7 @@ export default function HomePage() {
             >
               Copy Link
             </button>
+            <UserButton />
           </div>
           <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
          
