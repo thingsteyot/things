@@ -88,12 +88,10 @@ export default function HomePage() {
             </button>
           </div>
         </div>
-
+        <h2 className="text-2xl font-bold text-center">Games</h2>
         <GameGrid />
         <h2 className="text-2xl font-bold text-center">Recent Plays</h2>
         <RecentPlays />
-        <h2 className="text-2xl font-bold text-center">Games</h2>
-        
       </div>
     </>
   );
