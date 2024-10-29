@@ -60,6 +60,12 @@ export default function HomePage() {
               Share your link to earn a {PLATFORM_REFERRAL_FEE * 100}% fee on
               each play when players use this platform using your code.
             </p>
+
+
+
+
+
+            
             <button
               className="bg-[#8851ff] hover:bg-[#9564ff] rounded-lg p-2 text-xs bg-"
               onClick={copyInvite}
