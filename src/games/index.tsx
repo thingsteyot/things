@@ -95,7 +95,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
     meta: {
       background: "#e8dccb",
       name: "Crash",
-      image: "/games/crash/logo.png",
+      image: "/games/logo.png",
       description: `Predict a multiplier target and watch a rocket attempt to reach it. If the rocket crashes before the target, the player loses; if it reaches or exceeds the target, the player wins.`,
       volatility: 5,
     },
