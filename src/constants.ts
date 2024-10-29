@@ -111,16 +111,8 @@ export const TOKENLIST = [
     decimals: 9,
     baseWager: 0.01e9,
   },
-  // GUAC
-  {
-    mint: new PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"),
-    name: "Jupiter",
-    symbol: "JUP",
-    image:
-      "hhttps://s2.coinmarketcap.com/static/img/coins/64x64/29210.png",
-    decimals: 6,
-    baseWager: 2000000e5,
-  },
+  
+  
 
   // Add New Public pool
   // {
