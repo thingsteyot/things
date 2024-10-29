@@ -93,6 +93,7 @@ export default function HomePage() {
         <h2 className="text-2xl font-bold text-center">Recent Plays</h2>
         <RecentPlays />
         <div class="games-section">
+  <div className="games-section">
   <h2>Our Games</h2>
   <div className="game-grid">
     <div className="game-card">
@@ -105,7 +106,10 @@ export default function HomePage() {
       <h3>Game Title 2</h3>
       <p>Short description of the game.</p>
     </div>
-    <!-- Daha fazla oyun kartı ekleyin -->
+    {/* Daha fazla oyun kartı ekleyin */}
+  </div>
+</div>
+
   </div>
 </div>
 
