@@ -18,7 +18,7 @@ export default function RecentPlays() {
     useState<GambaTransaction<"GameSettled"> | null>(null);
 
   return (
-    <div className="w-full relative flex flex-col gap-2.5">
+    <div className="w-full relative flex flex-col gap-2.5 bg-gradient-to-b from-black to-gray-800">
       {selectedGame && (
         <ShareModal
           event={selectedGame}
@@ -44,8 +44,6 @@ export default function RecentPlays() {
               className="h-10 w-full rounded-lg animate-Skeleton bg-gray-300"
             ></div>
           ))}
-
-     
     </div>
   );
 }
