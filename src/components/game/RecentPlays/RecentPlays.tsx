@@ -16,7 +16,6 @@ export default function RecentPlays() {
   const events = useRecentPlays(true);
   const [selectedGame, setSelectedGame] =
     useState<GambaTransaction<"GameSettled"> | null>(null);
-  const PLATFORM_EXPLORER_URL = `https://explorer.gamba.so/platform/${PLATFORM_CREATOR_ADDRESS.toString()}`;
 
   return (
     <div className="w-full relative flex flex-col gap-2.5">
