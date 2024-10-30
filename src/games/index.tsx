@@ -23,16 +23,16 @@ export const GAMES: GameBundle<GameMeta>[] = [
     },
     app: dynamic(() => import("./Flip")),
   },
-  {
-    id: "crash",
+   {
+    id: "roulette",
     meta: {
-      background: "#e8dccb",
-      name: "Crash",
+      background: "#4CAF50",
+      name: "Roulette",
       image: "/games/logo.png",
-      description: `Predict a multiplier target and watch a rocket attempt to reach it. If the rocket crashes before the target, the player loses; if it reaches or exceeds the target, the player wins.`,
-      volatility: 5,
+      description: `Roulette breathes new life into the timeless tradition of wheel-spinning, blending elegance with digital innovation. Place your bets and witness the mesmerizing spectacle of the wheel as it determines your fate. With its straightforward yet captivating gameplay and the allure of substantial wins, Roulette stands as a testament to the thrill of chance and fortune, promising endless excitement and anticipation.`,
+      volatility: 3,
     },
-    app: dynamic(() => import("./Crash")),
+    app: dynamic(() => import("./Roulette")),
   },
   {
     id: "mines",
