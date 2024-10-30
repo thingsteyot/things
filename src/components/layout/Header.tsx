@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <>
       <div className="flex items-center justify-between w-full p-2.5 bg-none fixed top-0 left-0 z-50 rounded-b-2xl shadow-lg">
-        <div className="absolute top-0 left-0 right-0 backdrop-blur w-full h-full rounded-b-2xl -z-20" />
+        <div className="absolute inset-0 flex items-center justify-center backdrop-blur w-full h-full rounded-b-2xl -z-20" />
         <div className="flex gap-5 items-center">
           <Link href="/" passHref>
             <div className="h-9 m-0 cursor-pointer">
