@@ -15,7 +15,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
   {
     id: "flip",
     meta: {
-      backgroundImage: "url('https://i.hizliresim.com/rpiy3nq.png')",
+      background: "url('https://i.hizliresim.com/rpiy3nq.png') center / cover",
       backgroundSize: "cover",
       backgroundPosition: "center",
       name: "Flip",      
