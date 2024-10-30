@@ -38,8 +38,8 @@ export const FOOTER_LINKS = [
 ];
 
 export const FOOTER_TWITTER_LINK = {
-  href: "https://twitter.com/bankkroll_eth",
-  title: "© 2024 Template made with ❤️ by Bankk",
+  href: "https://x.com/ThingsSOL",
+  title: "© 2024 Things Gamble",
 };
 
 /******************************************
