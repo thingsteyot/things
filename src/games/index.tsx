@@ -15,9 +15,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
   {
     id: "flip",
     meta: {
-      background: "url('https://i.hizliresim.com/rpiy3nq.png') center / cover",
-      backgroundSize: "cover",
-      backgroundPosition: "center",
+      background: "#e8dccb",
       name: "Flip",      
       description: `Flip presents a compelling blend of simplicity and high-stakes excitement, where players face the tantalizing gamble of choosing between Heads or Tails. Every flip of the coin serves as a decisive moment, offering the potential to double one's fortune or lose it all. This straightforward yet adrenaline-inducing game tests players' luck and strategic decision-making prowess, ensuring an electrifying and immersive gaming session.`,
       volatility: 1,
