@@ -26,7 +26,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
    {
     id: "roulette",
     meta: {
-      background: "#4CAF50",
+      background: "#e8dccb",
       name: "Roulette",
       image: "/games/logo.png",
       description: `Roulette breathes new life into the timeless tradition of wheel-spinning, blending elegance with digital innovation. Place your bets and witness the mesmerizing spectacle of the wheel as it determines your fate. With its straightforward yet captivating gameplay and the allure of substantial wins, Roulette stands as a testament to the thrill of chance and fortune, promising endless excitement and anticipation.`,
