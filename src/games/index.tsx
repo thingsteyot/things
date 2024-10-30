@@ -56,4 +56,48 @@ export const GAMES: GameBundle<GameMeta>[] = [
     },
     app: dynamic(() => import("./Dice")),
   },
+   {
+    id: "plinko",
+    meta: {
+      background: "#00BCD4",
+      name: "Plinko",
+      image: "/games/logo.png",
+      description: `Plinko transforms the act of dropping chips into an art form, where anticipation and strategy converge to create an endlessly entertaining spectacle. Witness the tension mount with each chip's descent down the pegged board, as they randomly find their place among slots boasting varying win amounts. Each drop offers a delicate balance between luck and skill, making Plinko a captivating odyssey of chance and strategy. ⚠️ Under development. Results shown might be incorrect. ⚠️`,
+      volatility: 3,
+    },
+    app: dynamic(() => import("./Plinko")),
+  },
+  {
+    id: "crash",
+    meta: {
+      background: "#FF9800",
+      name: "Crash",
+      image: "/games/logo.png",
+      description: `Predict a multiplier target and watch a rocket attempt to reach it. If the rocket crashes before the target, the player loses; if it reaches or exceeds the target, the player wins.`,
+      volatility: 5,
+    },
+    app: dynamic(() => import("./Crash")),
+  },
+  {
+    id: "limbo",
+    meta: {
+      background: "#FFC107",
+      name: "Limbo",
+      image: "/games/logo.png",
+      description: `Limbo challenges players to walk the fine line between ambition and caution, where every decision shapes their destiny. Set a target multiplier and place your bet, daring to defy the odds. As the stakes rise, so does the adrenaline, pushing players to test their strategy and intuition in pursuit of monumental victories, ensuring an immersive and adrenaline-fueled gaming experience.`,
+      volatility: 5,
+    },
+    app: dynamic(() => import("./Limbo")),
+  },
+  {
+    id: "keno",
+    meta: {
+      background: "#673AB7",
+      name: "Keno",
+      image: "/games/logo.png",
+      description: `Keno beckons players into a world of strategic decision-making and anticipation, where every choice holds the potential for untold riches. Select up to 10 blocks and place your bets, eagerly awaiting the draw that will determine your fate. Whether opting for fewer numbers and the allure of substantial wins or more numbers for increased odds of success, Keno promises a riveting experience filled with excitement and possibility.`,
+      volatility: 4,
+    },
+    app: dynamic(() => import("./Keno")),
+  },
 ];
