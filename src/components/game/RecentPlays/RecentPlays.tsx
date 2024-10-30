@@ -46,9 +46,7 @@ export default function RecentPlays() {
             ></div>
           ))}
 
-      <GambaUi.Button main onClick={() => window.open(PLATFORM_EXPLORER_URL)}>
-        🚀 Platform Explorer
-      </GambaUi.Button>
+     
     </div>
   );
 }
