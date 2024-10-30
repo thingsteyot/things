@@ -195,7 +195,7 @@ body::-webkit-scrollbar-thumb {
   animation: purplePulse 1.5s cubic-bezier(0.2, 0, 0.2, 1) infinite;
 }
 
-/* Dashbaord gamecard styles */
+/* Dashboard gamecard styles */
 @keyframes tileAnimation {
   0% {
     background-position: -100px 100px;
@@ -298,4 +298,3 @@ body::-webkit-scrollbar-thumb {
   pointer-events: none;
   border-radius: 10px;
 }
-
