@@ -1,4 +1,3 @@
-// src/components/game/RecentPlays/RecentPlays.tsx
 import { GambaTransaction } from "gamba-core-v2";
 import { GambaUi } from "gamba-react-ui-v2";
 import { RecentPlay } from "@/utils/RecentPlay";
@@ -18,7 +17,7 @@ export default function RecentPlays() {
     useState<GambaTransaction<"GameSettled"> | null>(null);
 
   return (
-    <div className="w-full relative flex flex-col gap-2.5 bg-gradient-to-b from-black to-gray-800">
+    <div className="w-full relative flex flex-col gap-2.5 bg-gradient-to-r from-gray-900 to-gray-700">
       {selectedGame && (
         <ShareModal
           event={selectedGame}
