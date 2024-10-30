@@ -49,28 +49,28 @@ export const FOOTER_TWITTER_LINK = {
  ******************************************/
 
 export const BASE_SEO_CONFIG = {
-  defaultTitle: "Gamba - NEXTjs Demo",
+  defaultTitle: "Things Gamble 1.0.0",
   description:
     "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://play-gamba.vercel.app/",
-    title: "Gamba - NEXTjs Demo",
+    title: "Things Gamble 1.0.0",
     description:
       "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
     images: [
       {
         url: "https://play-gamba.vercel.app/seo.png",
-        alt: "Gamba - NEXTjs Demo",
+        alt: "Things Gamble 1.0.0",
       },
     ],
-    site_name: "Gamba - NEXTjs Demo",
+    site_name: "Things Gamble 1.0.0",
   },
   twitter: {
     cardType: "summary_large_image",
-    site: "https://twitter.com/gambalabs",
-    handle: "@gambalabs",
+    site: "https://x.com/ThingsSOL",
+    handle: "@ThingsSOL",
   },
   additionalMetaTags: [
     {
