@@ -87,7 +87,7 @@ export function ShareModal({
         <div className="rounded-lg overflow-hidden">
           <div
             ref={ref}
-            className="border-2 relative bg-gradient-to-br from-blue-800 to-purple-800 rounded-lg overflow-hidden shadow-3xl transform transition duration-500"
+            className="border-2 relative bg-gradient-to-br from-black to-gray-800 rounded-lg overflow-hidden shadow-3xl transform transition duration-500"
           >
             {shutterActive && (
               <div className="overflow-hidden absolute inset-0 flex justify-center items-center">
