@@ -1,2 +1,1 @@
-# Gamba Nextjs
-
+# Things Next.js
