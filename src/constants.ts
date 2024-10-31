@@ -61,7 +61,13 @@ export const BASE_SEO_CONFIG = {
       "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
     images: [
       {
-        <img src="https://play-gamba.vercel.app/seo.png" alt="SEO Image" class="black-image">
+        images: [
+  {
+    src: "https://play-gamba.vercel.app/seo.png",
+    alt: "SEO Image",
+    className: "black-image",
+  },
+],
         alt: "Things Gamble 1.0.0",
       },
     ],
