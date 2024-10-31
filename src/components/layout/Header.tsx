@@ -10,9 +10,9 @@ import {
 import { useState } from "react";
 
 import Link from "next/link";
-
 import TokenSelect from "../ui/TokenSelect";
 import { UserButton } from "../ui/UserButton";
+import { Modal } from "@/components/ui/Modal";
 
 export default function Header() {
   const pool = useCurrentPool();
