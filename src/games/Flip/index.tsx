@@ -118,7 +118,7 @@ function Flip() {
               onClick={() => setSide(side === "heads" ? "tails" : "heads")}
             />
             <Text
-              onClick={() => setSide(side === "headssss" ? "tails" : "heads")}
+              onClick={() => setSide(side === "heads" ? "tails" : "heads")}
               position={[0.4, -2.5, 0]}
               fontSize={0.25}
             >
