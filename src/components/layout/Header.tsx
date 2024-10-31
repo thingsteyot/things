@@ -16,10 +16,9 @@ import { UserButton } from "../ui/UserButton";
 
 
 export default function Header() {
-  
+  const pool = useCurrentPool();
   const token = useCurrentToken();
   const balance = useTokenBalance();
-  const pool = useCurrentPool();
   const [bonusHelp, setBonusHelp] = useState(false);
   const [jackpotHelp, setJackpotHelp] = useState(false);
 
