@@ -10,14 +10,16 @@ import {
 import { useState } from "react";
 
 import Link from "next/link";
+import { Modal } from "@/components/ui/Modal";
 import TokenSelect from "../ui/TokenSelect";
 import { UserButton } from "../ui/UserButton";
-import { Modal } from "@/components/ui/Modal";
+
 
 export default function Header() {
-  const pool = useCurrentPool();
+  
   const token = useCurrentToken();
   const balance = useTokenBalance();
+  const pool = useCurrentPool();
   const [bonusHelp, setBonusHelp] = useState(false);
   const [jackpotHelp, setJackpotHelp] = useState(false);
 
