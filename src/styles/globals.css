@@ -7,7 +7,7 @@
 }
 
 :root {
-  --background-image: url('https://i.hizliresim.com/rpiy3nq.png');
+  --background-color: #000000;
   --text-color: #ffffff;
 
   --gamba-ui-border-radius: 10px;
@@ -40,8 +40,7 @@ h2 {
 }
 
 body {
-  background: var(--background-image) no-repeat center center fixed;
-  background-size: cover; /* Resmin tüm ekrana yayılmasını sağlar */
+  background: var(--background-color);
   color: var(--text-color);
   cursor: default;
   margin: 0;
