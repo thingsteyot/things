@@ -10,7 +10,7 @@ import {
 import { useState } from "react";
 
 import Link from "next/link";
-import { Modal } from "@/components/ui/Modal";
+
 import TokenSelect from "../ui/TokenSelect";
 import { UserButton } from "../ui/UserButton";
 
