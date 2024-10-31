@@ -64,7 +64,7 @@ export default function HomePage() {
               className="bg-[#8851ff] hover:bg-[#9564ff] rounded-lg p-2 text-xs bg-"
               onClick={copyInvite}
             >
-              Share Refferal Link
+              Share Referral Link
             </button>          
           </div>
           <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
