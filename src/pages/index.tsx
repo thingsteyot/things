@@ -91,8 +91,7 @@ export default function HomePage() {
       </div>
     </>
   );
-}
-<head>
+  <head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMKTDDKKV0"></script>
 <script>
@@ -103,3 +102,5 @@ export default function HomePage() {
   gtag('config', 'G-EMKTDDKKV0');
 </script>
 </head>
+
+}
