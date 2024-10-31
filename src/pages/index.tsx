@@ -6,7 +6,7 @@ import RecentPlays from "@/components/game/RecentPlays/RecentPlays";
 import { toast } from "sonner";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { useWalletModal } from "@solana/wallet-adapter-react-ui";
-
+import { Analytics } from "@vercel/analytics/react"
 
 export default function HomePage() {
   const walletModal = useWalletModal();
