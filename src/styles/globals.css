@@ -28,12 +28,12 @@ body,
 input,
 button,
 textarea,
-<pre class="frijole-regular">
+pre {
   font-family: "Frijole", system-ui;
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
-</pre>
+}
 
 h1,
 h2 {
