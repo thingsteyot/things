@@ -14,18 +14,15 @@ export function GameCard({ game }: GameCardProps) {
   const small = router.pathname !== "/";
   const imagePath = `/games/${game.id}/logo.png`;
   
-  // Dikdörtgen boyutları için ayarlama
+  // Kartın dikdörtgen boyutları
   const backgroundStyle = {
-    aspectRatio: small ? "1 / 0.5" : "1 / 0.6",
     backgroundColor: game.meta.background,
-    height: "200px", // Dikey uzunluğu
-    width: "300px",  // Yatay genişliği
   };
 
   return (
     <Link href={`/play/${game.id}`} passHref>
       <div
-        className="cursor-pointer game-card bg-cover bg-center rounded-lg text-white font-bold text-2xl"
+        className="cursor-pointer game-card w-full h-64 bg-cover bg-center rounded-lg text-white font-bold text-2xl relative transition-transform duration-300 hover:scale-105"
         style={backgroundStyle}
       >
         <div
