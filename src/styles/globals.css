@@ -29,10 +29,19 @@ input,
 button,
 textarea,
 pre {
+  pre {
   font-family: "Frijole", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
+}
+
+.frijole-regular {
+  font-family: "Nosifer", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
 }
  
 h1,
