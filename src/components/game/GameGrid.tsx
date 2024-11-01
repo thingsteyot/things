@@ -9,7 +9,7 @@ import React from "react";
 
 export function GameCard({ game }) {
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 h-40 w-80 flex flex-col transition-transform duration-300 hover:scale-105">
+    <div className="bg-white rounded-lg shadow-md p-4 h-52 w-96 flex flex-col transition-transform duration-300 hover:scale-105">
       <div className="flex-1 flex flex-col justify-between">
         <h2 className="text-lg font-bold">{game.meta.name}</h2>
         <p className="text-sm text-gray-700">{game.meta.description}</p>
@@ -22,3 +22,4 @@ export function GameCard({ game }) {
     </div>
   );
 }
+
