@@ -22,7 +22,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
       volatility: 1,
     },
     
-  },
+  
   {
     id: "crash",
     meta: {
