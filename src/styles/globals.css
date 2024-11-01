@@ -300,33 +300,3 @@ body::-webkit-scrollbar-thumb {
   pointer-events: none;
   border-radius: 10px;
 }
-/* Dikey Kaydırıcı İçin CSS */
-.overflow-y-auto {
-  overflow-y: auto; /* Dikey kaydırma */
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  margin-top: 1rem; /* Elemanlar arasındaki boşluk */
-}
-
-/* GameCard stilini özelleştirmek için */
-.game-card {
-  height: 200px; /* Kart yüksekliği */
-  background: #fff; /* Arka plan rengi */
-  border-radius: 8px; /* Köşe yuvarlama */
-  padding: 16px; /* İç boşluk */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Gölge efekti */
-  transition: transform 0.3s; /* Geçiş efekti */
-}
-.game-card:hover {
-  transform: scale(1.05); /* Hover'da büyüme efekti */
-}
-
