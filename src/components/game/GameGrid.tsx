@@ -6,10 +6,13 @@ import React from "react";
 
 export function GameGrid() {
   return (
-    <div className="flex flex-col overflow-y-auto h-[600px] space-y-4 p-4 scrollbar-hide">
-      {GAMES.map((game) => (
-        <GameCard key={game.id} game={game} />
-      ))}
+    <div className="overflow-y-auto h-full" style={{ height: '600px' }}>
+      <div className="flex flex-col space-y-4">
+        {GAMES.map((game) => (
+          <GameCard key={game.id} game={game} />
+        ))}
+      </div>
     </div>
   );
 }
+
