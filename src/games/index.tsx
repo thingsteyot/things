@@ -34,17 +34,16 @@ export const GAMES: GameBundle<GameMeta>[] = [
     },
     app: dynamic(() => import("./Crash")),
   },
-  
   {
-    id: "dice",
+    id: "mines",
     meta: {
       background: "#e8dccb",
-      name: "Dice",
+      name: "Mines",
       image: "/games/logo.png",
-      description: `Dice offers an exhilarating challenge where players must forecast the outcome of a roll with a unique twist. By selecting a number, participants aim to roll below it to clinch victory. The dynamic nature of the game allows for adjustments in choices, directly influencing potential payouts and skillfully balancing risk and reward, ensuring an immersive and stimulating gaming experience.`,
+      description: `Mines emerges as a strategic masterpiece, where players navigate a perilous landscape in search of hidden treasures. Uncover squares with caution, as lurking mines threaten to abruptly end your quest. With each revelation, the stakes escalate, offering daring players a heart-pounding experience filled with suspense and calculated risk, ensuring an immersive and unforgettable gaming adventure.`,
       volatility: 2,
     },
-    app: dynamic(() => import("./Dice")),
+    app: dynamic(() => import("./Mines")),
   },
    {
     id: "plinko",
