@@ -34,17 +34,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
     },
     app: dynamic(() => import("./Crash")),
   },
-  {
-    id: "mines",
-    meta: {
-      background: "#e8dccb",
-      name: "Mines",
-      image: "/games/logo.png",
-      description: `Mines emerges as a strategic masterpiece, where players navigate a perilous landscape in search of hidden treasures. Uncover squares with caution, as lurking mines threaten to abruptly end your quest. With each revelation, the stakes escalate, offering daring players a heart-pounding experience filled with suspense and calculated risk, ensuring an immersive and unforgettable gaming adventure.`,
-      volatility: 2,
-    },
-    app: dynamic(() => import("./Mines")),
-  },
+  
   {
     id: "dice",
     meta: {
@@ -67,37 +57,6 @@ export const GAMES: GameBundle<GameMeta>[] = [
     },
     app: dynamic(() => import("./Plinko")),
   },
-  {
-    id: "crash",
-    meta: {
-      background: "#e8dccb",
-      name: "Crash",
-      image: "/games/logo.png",
-      description: `Predict a multiplier target and watch a rocket attempt to reach it. If the rocket crashes before the target, the player loses; if it reaches or exceeds the target, the player wins.`,
-      volatility: 5,
-    },
-    app: dynamic(() => import("./Crash")),
-  },
-  {
-    id: "limbo",
-    meta: {
-      background: "#e8dccb",
-      name: "Limbo",
-      image: "/games/logo.png",
-      description: `Limbo challenges players to walk the fine line between ambition and caution, where every decision shapes their destiny. Set a target multiplier and place your bet, daring to defy the odds. As the stakes rise, so does the adrenaline, pushing players to test their strategy and intuition in pursuit of monumental victories, ensuring an immersive and adrenaline-fueled gaming experience.`,
-      volatility: 5,
-    },
-    app: dynamic(() => import("./Limbo")),
-  },
-  {
-    id: "keno",
-    meta: {
-      background: "#e8dccb",
-      name: "Keno",
-      image: "/games/logo.png",
-      description: `Keno beckons players into a world of strategic decision-making and anticipation, where every choice holds the potential for untold riches. Select up to 10 blocks and place your bets, eagerly awaiting the draw that will determine your fate. Whether opting for fewer numbers and the allure of substantial wins or more numbers for increased odds of success, Keno promises a riveting experience filled with excitement and possibility.`,
-      volatility: 4,
-    },
-    app: dynamic(() => import("./Keno")),
-  },
+  
+  
 ];
