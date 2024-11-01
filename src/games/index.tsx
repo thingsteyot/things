@@ -49,12 +49,12 @@ export const GAMES: GameBundle<GameMeta>[] = [
     id: "plinko",
     meta: {
       background: "#e8dccb",
-      name: "Plinko",
+      name: "?",
       image: "/games/logo.png",
       description: `Plinko transforms the act of dropping chips into an art form, where anticipation and strategy converge to create an endlessly entertaining spectacle. Witness the tension mount with each chip's descent down the pegged board, as they randomly find their place among slots boasting varying win amounts. Each drop offers a delicate balance between luck and skill, making Plinko a captivating odyssey of chance and strategy. ⚠️ Under development. Results shown might be incorrect. ⚠️`,
       volatility: 3,
     },
-    app: dynamic(() => import("./Plinko")),
+    app: dynamic(() => import("./?")),
   },
   
   
